@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Form Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Implementing Flexbox</h1>
+    <div class="flex-container">
+        <div class="flex">Home </div>
+        <div class="flex">Contact Me</div>
+        <div class="flex">Feedback</div>
+    </div>
+    <div>
+        <div class="home">
+            <p>Hello everyone. My name is Nijah Richardson. This is my first time implementing Flexbox to a webpage. Please feel free to throw in any type of feedback on my progress. Thank you!</p>
+        </div>
+        <span class="inline" style="justify-content: center;">Welcome to my first website using flexbox. I hope you enjoy! Please enter your information and I will reach out to you!</span>
+        <a href="#" class="contact-me">My Contact Information</a>
+    </div>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" autofocus aria-label="Full name input" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" aria-label="Email Address input" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="pwd" name="password" placeholder="Enter your password" aria-label="Password input" required>
+        </div>
+        <div>
+            <button type="submit" aria-label="Submit the form">Submit</button>
+        </div>
+    </form>
+</main>
+</body>
+</html>
+
